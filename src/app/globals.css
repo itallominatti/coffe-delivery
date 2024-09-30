@@ -1,6 +1,34 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --yellow-dark: ##C47F17;
+  --yellow: #DBAC2C;
+  --yellow-light: #F1e9c9;
+
+  --purple-dark: #4B2995;
+  --purple: #8047f8;
+  --purple-light: #EBE5F9;
+
+  --base-title: #272221;
+  --base-subtitle: #403937;
+
+  --base-text: #574f4d;
+
+  --base-label: #8D8686;
+
+  --base-hover: #D7D5D5;
+
+  --base-button: #e6e5e5;
+
+  --base-input: #ededed;
+
+  --base-card: #f3f2f2;
+
+  --base-background: #fafafa;
+
+  --base-white: #ffffff;
+
 }
 
 @media (prefers-color-scheme: dark) {
