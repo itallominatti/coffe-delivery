@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { type_first } from "@/functions/fonts";
+import Header from "@/components/Header";
 
 
 export const metadata: Metadata = {
@@ -13,9 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
-        {children}
+    <html lang="pt-br">
+      <body className={type_first.variable}>
+        <div className="App">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );

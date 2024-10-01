@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6.5rem;
+}
+
+.nav > div {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.nav__pill-location {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    width: 143px;
+    height: 38px;
+    background: var(--purple-light);
+    color: var(--purple);
+    border-radius: 0.4rem;
+    padding: 0.2rem 0.6rem;
+}
+
+.nav__pill-location > span {
+    font-weight: 700;
+}
+
+.nav__cart {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    background: var(--yellow-light);
+    color: var(--yellow);
+    border-radius: 0.4rem;
+    padding: 0.6rem 0.6rem;
+}
+
+.nav__cart > img {
+    background: var(--yellow);
+}
