@@ -3,6 +3,8 @@
     position: fixed;
     z-index: 100;
     top: 0;
+    background-color: var(--white);
+    border-bottom: 1px solid dark;
 }
 
 .nav {

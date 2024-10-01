@@ -1,0 +1,59 @@
+.feed {
+    width: 100%;
+    height: 34rem;
+    display: flex;
+    gap: 5.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.feed__info {
+    max-width: 588px;
+}
+
+.feed__titleContent {
+    margin-bottom: 1.6rem;
+}
+
+.feed__title {
+    line-height: 1.2;
+    color: #272221;
+}
+
+.feed__options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.6rem;
+}
+
+.feed__option {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.feed__optionPill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 0.2rem 0.4rem;
+}
+
+.feed__optionPill--shoppingCart {
+    background: var(--yellow-dark);
+}
+
+.feed__optionPill--package {
+    background: var(--base-text);
+}
+
+.feed__optionPill--timer {
+    background: var(--yellow);
+}
+
+.feed__optionPill--coffee {
+    background: var(--purple);
+}
