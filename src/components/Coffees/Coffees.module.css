@@ -24,3 +24,37 @@
     gap: 3.2rem;
     margin-top: 4rem;
 }
+
+.feedCoffee__wrapperCoffee .coffeeCard {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 2.4rem;
+    border-radius: 1.6rem;
+    background-color: var(--base-card);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+}
+
+.coffeeCard__img {
+    margin-top: -3.2rem;
+    width: 100%;
+}
+
+.coffeCard__wrapperPills {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.coffeCard .coffeCard__wrapperPills .pill {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--yellow);
+    background-color: var(--yellow-light);
+    padding: 0.8rem 1.6rem;
+    text-transform: uppercase;
+}
