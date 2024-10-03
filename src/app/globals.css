@@ -2,7 +2,7 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --yellow-dark: ##C47F17;
+  --yellow-dark: #C47F17;
   --yellow: #DBAC2C;
   --yellow-light: #F1e9c9;
 
@@ -69,7 +69,7 @@ a {
 }
 
 .container {
-  max-width: 50rem;
+  max-width: 72rem;
   padding: 0 1rem;
   margin: 0 auto;
 }

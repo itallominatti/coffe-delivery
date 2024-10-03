@@ -21,7 +21,7 @@ export default function Feed() {
 
                         <div className={styles.feed__option}>
                             <span className={`${styles.feed__optionPill} ${styles['feed__optionPill--shoppingCart']}`}>
-                                <ShoppingCartSimple size={16} weight="bold" />
+                                <ShoppingCartSimple size={16} weight="bold" color='white' />
                             </span>
                             <p>Compra simples e segura</p>
                         </div>
@@ -33,13 +33,13 @@ export default function Feed() {
                         </div>
                         <div className={styles.feed__option}>
                             <span className={`${styles.feed__optionPill} ${styles['feed__optionPill--timer']}`}>
-                                <Timer size={16} weight="bold" />
+                                <Timer size={16} weight="bold" color='white' />
                             </span>
                             <p>Entrega rápida</p>
                         </div>
                         <div className={styles.feed__option}>
                             <span className={`${styles.feed__optionPill} ${styles['feed__optionPill--coffee']}`}>
-                                <Coffee size={16} weight="bold" />
+                                <Coffee size={16} weight="bold" color='white' />
                             </span>
                             <p>O café chega fresquinho até você</p>
                         </div>
