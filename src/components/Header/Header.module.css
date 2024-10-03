@@ -3,15 +3,15 @@
     position: fixed;
     z-index: 100;
     top: 0;
-    background-color: var(--white);
-    border-bottom: 1px solid dark;
+    background-color: var(--base-white);
+    border-bottom: 1px solid black;
 }
 
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6.5rem;
+    height: 5.6rem;
 }
 
 .nav > div {
