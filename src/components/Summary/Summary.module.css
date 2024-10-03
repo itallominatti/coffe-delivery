@@ -1,4 +1,4 @@
-.feed {
+.feedSummary {
     width: 100%;
     height: 34rem;
     display: flex;
@@ -8,46 +8,46 @@
     background-color: var(--base-background);
 }
 
-.feed__info {
+.feedSummary__info {
     max-width: 588px;
     padding: 0 1.6rem;
 }
 
-.feed__titleContent {
+.feedSummary__titleContent {
     margin-bottom: 1.6rem;
 }
 
-.feed__titleContent > p {
+.feedSummary__titleContent > p {
     font-size: 1.2rem;
     color: var(--base-subtitle);
 }
 
-.feed__title {
+.feedSummary__title {
     font-size: clamp(2.2rem, 3vw, 3rem);
     font-weight: extra-bold;
     line-height: 1.2;
     color: #272221;
 }
 
-.feed__options {
+.feedSummary__options {
     display: grid;
     min-width: 100%;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.6rem;
 }
 
-.feed__option {
+.feedSummary__option {
     display: flex;
     align-items: center;
     gap: 0.8rem;
 }
 
-.feed__option > p {
+.feedSummary__option > p {
     font-size: .9rem;
     color: var(--base-text);
 }
 
-.feed__optionPill {
+.feedSummary__optionPill {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,24 +57,24 @@
     padding: 0.2rem 0.4rem;
 }
 
-.feed__optionPill--shoppingCart {
+.feedSummary__optionPill--shoppingCart {
     background: var(--yellow-dark);
 }
 
-.feed__optionPill--package {
+.feedSummary__optionPill--package {
     background: var(--base-text);
 }
 
-.feed__optionPill--timer {
+.feedSummary__optionPill--timer {
     background: var(--yellow);
 }
 
-.feed__optionPill--coffee {
+.feedSummary__optionPill--coffee {
     background: var(--purple);
 }
 
 @media (max-width: 800px) {
-    .feed {
+    .feedSummary {
         height: auto;
         padding: 2.4rem 1.6rem;
         gap: 2.4rem;
@@ -82,23 +82,23 @@
         align-items: flex-start;
     }
 
-    .feed > img {
+    .feedSummary > img {
         width: 100%;
     }
 
-    .feed__info {
+    .feedSummary__info {
         max-width: 100%;
     }
 
-    .feed__title {
+    .feedSummary__title {
         font-size: clamp(1.8rem, 3vw, 2.2rem);
     }
 
-    .feed__options {
+    .feedSummary__options {
         grid-template-columns: repeat(4, 1fr);
     }
 
-    .feed__option {
+    .feedSummary__option {
         flex-direction: column;
         align-items: center;
         text-align: center;

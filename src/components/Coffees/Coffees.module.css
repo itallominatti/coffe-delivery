@@ -1,0 +1,26 @@
+.feedCoffee {
+    max-width: 1164px;
+    margin: 0 auto;
+    height: calc(100vh - '39.6rem');
+    display: flex;
+    gap: 3.4rem;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
+
+.feedCoffee__title {
+    margin-top: 2rem;
+    max-width: 588px;
+    font-size: clamp(2.2rem, 3vw, 3rem);
+    font-weight: extra-bold;
+    line-height: 1.2;
+    color: #272221;
+}
+
+.feedCoffee__wrapperCoffee {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.2rem;
+    margin-top: 4rem;
+}

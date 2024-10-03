@@ -6,38 +6,38 @@ import styles from './Summary.module.css';
 
 export default function Summary() {
     return (
-        <section className={styles.feed}>
+        <section className={styles.feedSummary}>
 
-            <div className={styles.feed__info}>
+            <div className={styles.feedSummary__info}>
 
-                <div className={styles.feed__titleContent}>
-                    <h1 className={styles.feed__title}>Encontre o café perfeito para qualquer hora do dia</h1>
+                <div className={styles.feedSummary__titleContent}>
+                    <h1 className={styles.feedSummary__title}>Encontre o café perfeito para qualquer hora do dia</h1>
 
                     <p>Com o Coffee Delivery você recebe seu café onde estiver, a qualquer hora</p>
                 </div>
 
-                <div className={styles.feed__options}>
+                <div className={styles.feedSummary__options}>
 
-                    <div className={styles.feed__option}>
-                        <span className={`${styles.feed__optionPill} ${styles['feed__optionPill--shoppingCart']}`}>
+                    <div className={styles.feedSummary__option}>
+                        <span className={`${styles.feedSummary__optionPill} ${styles['feedSummary__optionPill--shoppingCart']}`}>
                             <ShoppingCartSimple size={16} weight="bold" color='white' />
                         </span>
                         <p>Compra simples e segura</p>
                     </div>
-                    <div className={styles.feed__option}>
-                        <span className={`${styles.feed__optionPill} ${styles['feed__optionPill--package']}`}>
+                    <div className={styles.feedSummary__option}>
+                        <span className={`${styles.feedSummary__optionPill} ${styles['feedSummary__optionPill--package']}`}>
                             <Package size={16} weight="bold" color='white' />
                         </span>
                         <p>Embalagem mantém o café intacto</p>
                     </div>
-                    <div className={styles.feed__option}>
-                        <span className={`${styles.feed__optionPill} ${styles['feed__optionPill--timer']}`}>
+                    <div className={styles.feedSummary__option}>
+                        <span className={`${styles.feedSummary__optionPill} ${styles['feedSummary__optionPill--timer']}`}>
                             <Timer size={16} weight="bold" color='white' />
                         </span>
                         <p>Entrega rápida</p>
                     </div>
-                    <div className={styles.feed__option}>
-                        <span className={`${styles.feed__optionPill} ${styles['feed__optionPill--coffee']}`}>
+                    <div className={styles.feedSummary__option}>
+                        <span className={`${styles.feedSummary__optionPill} ${styles['feedSummary__optionPill--coffee']}`}>
                             <Coffee size={16} weight="bold" color='white' />
                         </span>
                         <p>O café chega fresquinho até você</p>
